@@ -45,7 +45,9 @@
     <!-- software -->
     <project name="armmbed/meta-gateway-ww"
         path="poky/meta-gateway-ww"
-        remote="github" />
+        remote="github" 
+        revision="trav_dev"
+        />
 
     <project name="aaronovz1/meta-nodejs"
         path="poky/meta-nodejs"
