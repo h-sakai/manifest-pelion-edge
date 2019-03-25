@@ -42,7 +42,7 @@
 
     <!-- distros -->
 
-    <!-- software -->
+    <!-- software  -->
     <project name="armmbed/meta-gateway-ww"
         path="poky/meta-gateway-ww"
         remote="github" 
