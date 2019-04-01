@@ -42,12 +42,11 @@
 
     <!-- distros -->
 
-    <!-- software  -->
+    <!-- software -->
     <project name="armmbed/meta-gateway-ww"
         path="poky/meta-gateway-ww"
         remote="github" 
-        revision="trav_dev"
-        />
+        revision="trav_dev2" />
 
     <project name="aaronovz1/meta-nodejs"
         path="poky/meta-nodejs"
