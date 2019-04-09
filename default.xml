@@ -43,10 +43,10 @@
     <!-- distros -->
 
     <!-- software -->
-    <project name="armmbed/meta-gateway-ww"
-        path="poky/meta-gateway-ww"
+    <project name="armmbed/meta-pelionosedge"
+        path="poky/meta-pelionosedge"
         remote="github" 
-        revision="trav_dev2" />
+        revision="master" />
 
     <project name="aaronovz1/meta-nodejs"
         path="poky/meta-nodejs"
