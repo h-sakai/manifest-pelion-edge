@@ -43,10 +43,9 @@
     <!-- distros -->
 
     <!-- software -->
-    <project name="armPelionEdge/meta-pelionosedge"
-        path="poky/meta-pelionosedge"
-        remote="github" 
-        revision="master" />
+    <project name="armPelionEdge/meta-pelion-os-edge"
+        path="poky/meta-pelion-os-edge"
+        remote="github" />
 
     <project name="aaronovz1/meta-nodejs"
         path="poky/meta-nodejs"
