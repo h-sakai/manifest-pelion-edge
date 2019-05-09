@@ -35,10 +35,15 @@
         remote="yocto" />
 
     <!-- bsps -->
-    <project name="meta-raspberrypi"
-        path="poky/meta-raspberrypi"
+    <project name="meta-wigwaghw"
+        path="poky/meta-wigwaghw"
         revision="thud"
-        remote="yocto" />
+        remote="github" />
+        
+    <project name="meta-sunxi"
+        path="poky/meta-sunxi"
+        revision="thud"
+        remote="github" />
 
     <!-- distros -->
 
