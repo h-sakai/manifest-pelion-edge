@@ -51,7 +51,7 @@ There are two ways to build the image depending on how much manual effort and ti
 
 **5. Flash your image:**
 
-Instructions for flashing the image to an SD card can be found [here](https://github.com/armpelionedge/meta-pelion-os-edge/blob/master/FLASH.md).
+Instructions for flashing the image to an SD card can be found [here](https://github.com/armpelionedge/meta-pelion-os-edge/blob/dev/FLASH.md).
 
 
 
