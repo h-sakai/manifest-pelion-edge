@@ -12,7 +12,7 @@
     <!-- build scripts -->
     <project name="armpelionedge/build-pelion-edge"
         path="build-env"
-        revision="refs/tags/2.0.0-rc1"
+        revision="refs/tags/2.0.0-rc2"
         remote="github" />
 
     <!-- yocto core -->
