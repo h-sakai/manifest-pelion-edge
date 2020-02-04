@@ -4,10 +4,10 @@ This repository provides Repo manifests to setup the Yocto build system for the 
 
 Quickstart
 ----------
-    $ mkdir build; cd build
-    $ repo init -u ssh://git@github.com/armpelionedge/manifest-pelion-edge.git -b <branch>
-    $ repo sync -j8
-    $ cd build-env
+    mkdir build; cd build
+    repo init -u ssh://git@github.com/armpelionedge/manifest-pelion-edge.git -b <branch>
+    repo sync -j8
+    cd build-env
 Follow the [automated build instructions](https://github.com/armpelionedge/build-pelion-edge) of the build environment repository.
 
 Getting Started
@@ -21,6 +21,14 @@ Download the Repo script:
     curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
     chmod a+x ~/bin/repo
 
+**2. Ensure github credentials are working **
+
+git ssh key access is required for Pelion Edge compliation (even for pubic repositories), do not continue untill the following commands are successful
+
+    ssh -T git@github.com
+    git config --global user.email "you@example.com"
+    git config --global user.name "Your Name"
+
 **2.  Initialize a Repo client.**
 
 Create an empty directory to hold the build directory:
@@ -30,7 +38,7 @@ Create an empty directory to hold the build directory:
 
 Tell Repo to download the manifest in this repo:
 
-    repo init -u ssh://git@github.com/armpelionedge/manifest-pelion-edge.git
+    repo init -u ssh://git@github.com/armpelionedge/manifest-pelion-edge.git -b <branch>
 
 Your directory should now contain a .repo directory.
 
