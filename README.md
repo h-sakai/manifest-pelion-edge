@@ -16,27 +16,27 @@ Getting Started
 
 Download the Repo script:
 
-    $ mkdir ~/bin
-    $ PATH=~/bin:${PATH}
-    $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-    $ chmod a+x ~/bin/repo
+    mkdir ~/bin
+    PATH=~/bin:${PATH}
+    curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+    chmod a+x ~/bin/repo
 
 **2.  Initialize a Repo client.**
 
 Create an empty directory to hold the build directory:
 
-    $ mkdir build
-    $ cd build
+    mkdir build
+    cd build
 
 Tell Repo to download the manifest in this repo:
 
-    $ repo init -u ssh://git@github.com/armpelionedge/manifest-pelion-edge.git
+    repo init -u ssh://git@github.com/armpelionedge/manifest-pelion-edge.git
 
 Your directory should now contain a .repo directory.
 
 **3.  Fetch all the repositories:**
 
-    $ repo sync -j8
+    repo sync -j8
 
 **4.  Build an image:**
 
