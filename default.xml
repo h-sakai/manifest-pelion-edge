@@ -40,23 +40,13 @@
         path="poky/meta-raspberrypi"
         revision="warrior"
         remote="yocto" />
-
-    <project name="armmbed/meta-mbl"
-        path="poky/meta-mbl"
-        remote="github"
-        revision="warrior-dev" />
     <!-- distros -->
 
     <!-- software -->
     <project name="armpelionedge/meta-pelion-edge"
         path="poky/meta-pelion-edge"
-        revision="dev"
+        revision="pull-out-mbl"
         remote="github" />
-
-    <project name="openembedded/meta-linaro"
-        path="poky/meta-linaro"
-        remote="linaro"
-        revision="warrior" />
 
     <project name="aaronovz1/meta-nodejs"
         path="poky/meta-nodejs"
