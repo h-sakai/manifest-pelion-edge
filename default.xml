@@ -46,7 +46,7 @@
     <!-- software -->
     <project name="armpelionedge/meta-pelion-edge"
         path="poky/meta-pelion-edge"
-        revision="9b982ba4b469bb1d1c26eeb251f0e8c91d23c496"
+        revision="026e03e079330b0023493fef6778b1056755021a"
         remote="github" />
 
     <project name="aaronovz1/meta-nodejs"
